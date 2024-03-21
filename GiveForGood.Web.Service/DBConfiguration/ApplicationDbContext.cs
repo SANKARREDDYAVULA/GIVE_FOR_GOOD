@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using GiveForGood.Web.Service.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace GiveForGood.Web.Service.DBConfiguration
 {
@@ -12,5 +13,6 @@ namespace GiveForGood.Web.Service.DBConfiguration
         {
             base.OnModelCreating(modelBuilder);
         }
+        public DbSet<Role> roles { get; set; }
     }
 }

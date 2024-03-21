@@ -63,4 +63,7 @@
     <Folder Include="dbo\Pre-Deployment" />
     <Folder Include="dbo\Views" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\Role.sql" />
+  </ItemGroup>
 </Project>
